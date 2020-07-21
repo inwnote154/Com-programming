@@ -4,7 +4,7 @@
 using namespace std;
 void main()
 {
-	/*cout<<"*****Exercise 1*****\n";
+	cout<<"*****Exercise 1*****\n";
 	string name;
 	short birth,age;
 	
@@ -16,7 +16,7 @@ void main()
 	age = 2563-birth;
 	cout<<"********************\n";
 	cout<<"Your Age = "<<age<<endl;
-	*/
+	
 	cout<<"*****Exercise 2*****\n";
 	string name;
 	float W,H,bmi,d;
