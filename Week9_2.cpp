@@ -61,6 +61,7 @@ void DisplayMenu()
 	cout<<"  2. Rectangle "<<endl;
 	cout<<"  3. Triangle "<<endl;
 	cout<<"  4. Exit "<<endl;
+	cout<<"Enter your choose number : ";
 }
 float Area(const float Radius)
 {
