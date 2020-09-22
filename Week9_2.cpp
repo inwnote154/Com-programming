@@ -21,7 +21,7 @@ int main()
 			cout<<"Area of Circle = "<<fixed;
 			cout<<setprecision(2)<<Area(Radius)<<endl;
 		}
-		if(Choice=='2')
+		else if(Choice=='2')
 		{
 			float Length,Widht;
 			cout<<"\nEnter length and widht : ";
@@ -29,7 +29,7 @@ int main()
 			cout<<"Area of Rectangle = "<<fixed;
 			cout<<setprecision(2)<<Area(Length,Widht)<<endl;
 		}
-		if(Choice=='3')
+		else if(Choice=='3')
 		{
 			float Based,High;
 			cout<<"\nEnter based and high : ";
@@ -37,7 +37,7 @@ int main()
 			cout<<"Area of Triangle = "<<fixed;
 			cout<<setprecision(2)<<Area(Based,High)<<endl;
 		}
-		if(Choice=='4')
+		else if(Choice=='4')
 		{
 			Flag=false;
 		}
