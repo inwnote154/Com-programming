@@ -2,6 +2,7 @@
 #include<string>
 #include<array>
 using namespace std;
+void print_arr(int a[4]);
 int main()
 {
 	//arrayex1.c
@@ -69,6 +70,23 @@ int main()
 
 	//---------------------------------------------------------------------
 	
+	int num[4] = {5,2,-1,8};
+	print_arr(num);
+	for(int i =0;i<4;i++)
+	{	
+		cout<<num[i]<<endl;
+	}
+
+	//------------------------------------------------------------------
+
 	system("pause");
 	return 0;
+}
+void print_arr(int a[4])
+{
+	for(int i =0;i<4;i++)
+	{	
+		a[i]*=2;
+		cout<<a[i]<<endl;
+	}
 }
