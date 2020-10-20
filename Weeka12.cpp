@@ -8,7 +8,7 @@ int main()
 	ofstream outfile;
 	//int value;
 	string name;
-	int mscore,fscore;
+	int mscore,fscore,total;
 	string filename="myfile2.txt";
 	outfile.open(filename.c_str(),ios_base::out|ios_base::app);
 	srand(time(NULL));
@@ -42,7 +42,8 @@ int main()
 		cout<<"DD.\n";
 		while(infile>>name>>mscore>>fscore)
 		{
-			cout<<name<<" "<<mscore<<" "<<fscore<<endl;
+			total=mscore+fscore
+			cout<<name<<" "<<mscore<<" "<<fscore<<" "<<total<<endl;
 		}
 	}
 	else
